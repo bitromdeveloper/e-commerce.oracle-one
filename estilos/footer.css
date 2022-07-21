@@ -1,0 +1,174 @@
+/* ----------FULL SCREEN ---------------- */
+
+
+.footer {
+    padding: 1rem;
+    background-color: #F8974C;
+    
+}
+
+.footer__contenedor {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.footer__nosotros {
+    padding: .5rem;
+    margin: .5rem;
+    width: 25%;
+}
+
+.footer__lista {
+}
+
+.footer__item {
+    margin: .2rem;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+}
+
+.footer__mensaje {
+    padding: .5rem;
+    margin: .5rem;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 40%;
+}
+
+.footer__nosotros-titulo {
+    align-self: flex-start;
+    margin-left: 5%;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.footer__formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: .3rem;
+    width: 90%;
+    height: 70%;
+}
+
+.footer__formulario-nombre{
+    margin: .2rem; 
+    height: 25%;
+    width: 90%;
+    padding: .2rem;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.footer__formulario-comentario{
+    margin: .2rem; 
+    height: 80%;
+    width: 90%;
+    padding: .2rem;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid grey;
+}
+
+.footer__formulario-enviar{
+    border: none;
+    border-bottom: 1px solid grey;
+    border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .footer{
+        padding: 0.4rem;
+    }
+
+    .footer__contenedor{
+        justify-content: center;
+    }
+
+    .footer__nosotros{
+        width: 35%;
+    }
+
+    .footer__nosotros-titulo{
+        text-align: center;
+        margin: 0;
+    }
+
+    .footer__item{
+        font-size: 1.2rem;
+        margin: .5rem 0;
+    }
+
+    .footer__mensaje{
+        width: 50%;
+        margin: 0;
+    }
+
+    .footer__formulario{
+        max-width: 290px;
+
+    }
+
+    .footer__formulario-nombre{
+        width: 100%;
+        padding: 0;
+    }
+
+    .footer__formulario-comentario{
+        width: 100%;
+        padding: 0;
+        
+    }
+
+    .footer__formulario-enviar{
+        align-self: flex-start;
+        padding: .3rem 1rem;
+        margin: .2rem;
+    }
+}
+
+@media screen and (max-width: 360px) {
+
+    .footer__contenedor{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer__nosotros{
+        text-align:  center;
+        width: 90%;
+    }
+
+    .footer__mensaje{
+        width: 90%;
+        align-items: center;
+    }
+
+    .footer__nosotros-titulo{
+        width: 90%;
+        font-size: 1.2rem;
+        text-align: center;
+        align-self: center;
+    }
+
+    .footer__formulario-nombre{
+        padding: .2rem;
+    }
+
+    .footer__formulario-mensaje{
+        padding: .2rem;
+    }
+
+    .footer__formulario-enviar{
+        padding: .5rem;
+        margin: .2rem;
+    }
+}
