@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos/reset.css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Alura Lucas Finamore</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos/index.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos/navegador.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos/derechos.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos/footer.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos/login.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+
+    <!-- BODY -->
+<body>
+    <!--  NAVEGADOR  -->
+    <header class="navegador__contenedor">
+        <div class="navegador__contenedor-titulo">
+            <h2 class="navegador__titulo"><a href="index.html"> E-commerce by Lucas Finamore</a></h2>
+            <input type="search" class="navegador__buscador" placeholder="¿Que desea buscar?" autofocus required>
+        </div>
+    </header>
+
+    <!-- INICIO SESION  -->
+    <section class="login">
+        <div class="login__contenedor">
+            <h2 class="login__titulo">Iniciar Sesión</h2>
+            <form action="" class="login__formulario">
+                <label for="login-usuario" class="login__formulario-label"></label>
+                <input type="text" placeholder="Ingrese nombre de usuario" class="login__formulario-input" id="login-usuario" maxlength="16" minlength="8" required>
+                <label for="login-contrasena" class="login__formulario-label"></label>
+                <input type="password" placeholder="Ingrese contraseña" class="login__formulario-input" id="login-contrasena" maxlength="16" required>
+                <input type="submit" class="login__formulario-send">
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER  -->
+    <section class="footer">
+        <div class="footer__contenedor">
+            <div class="footer__nosotros">
+                <ul class="footer__lista">
+                    <li class="footer__item"><a href="">Quienes somos</a></li>
+                    <li class="footer__item"><a href="">Politica de privacidad</a></li>
+                    <li class="footer__item"><a href="">Programa de fidelidad</a></li>
+                    <li class="footer__item"><a href="">Nuestras tiendas</a></li>
+                    <li class="footer__item"><a href="">Quiero ser franquiciado</a></li>
+                    <li class="footer__item"><a href="">Anuncie aqui</a></li>
+                </ul>
+            </div>
+            <div class="footer__mensaje">
+                <h2 class="footer__nosotros-titulo">Habla con nosotros</h2>
+                <form action="" class="footer__formulario">
+                    <input type="text" class="footer__formulario-nombre" placeholder="Nombre" required>
+                    <textarea type="text" class="footer__formulario-comentario" placeholder="Mensaje" rows="3" required></textarea>
+                    <button class="footer__formulario-enviar" type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- DERECHOS  -->
+    <footer class="derechos">
+        <div class="derechos__contenedor">
+            <p class="derechos__texto">Desarrollado por Lucas Finamore</p>
+            <a href="" class="derechos__redes"><img src="" alt="" class="derechos__img"></a>
+            <a href="" class="derechos__redes"><img src="" alt="" class="derechos__img"></a>
+            <a href="" class="derechos__redes"><img src="" alt="" class="derechos__img"></a>
+        </div>
+    </footer>
+</body>
+</html>

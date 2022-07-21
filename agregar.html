@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos/reset.css'>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Alura Lucas Finamore</title>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos/index.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos/navegador.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos/derechos.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos/footer.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='estilos/agregar.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+
+    <!-- BODY -->
+<body>
+    <!--  NAVEGADOR  -->
+    <header class="navegador__contenedor">
+        <div class="navegador__contenedor-titulo">
+            <h2 class="navegador__titulo"><a href="index.html"> E-commerce by Lucas Finamore</a></h2>
+            <input type="search" class="navegador__buscador" placeholder="¿Que desea buscar?" autofocus required>
+        </div>
+        <button class="navegador__login"><a href="login.html"> Iniciar Sesion</a></button>
+    </header>
+
+    <!-- INICIO SESION  -->
+    <section class="agregar">
+        <div class="agregar__contenedor">
+            <h2 class="agregar__titulo">Agregar nuevo producto</h2>
+            <form action="" class="agregar__formulario">
+                <label for="agregar-url" class="agregar__formulario-label">URL de la imagen</label>
+                <input type="text" placeholder="URL de la imagen" class="agregar__formulario-input" id="agregar-url" required>
+                <label for="agregar-categoria" class="agregar__formulario-label">Categoria</label>
+                <input type="text" placeholder="Categoria" class="agregar__formulario-input" id="agregar-categoria" maxlength="25" required>
+                <label for="agregar-nombre" class="agregar__formulario-label">Nombre del producto</label>
+                <input type="text" placeholder="Nombre del producto" class="agregar__formulario-input" id="agregar-nombre" maxlength="16" required>
+                <label for="agregar-precio" class="agregar__formulario-label">Precio del producto</label>
+                <input type="text" placeholder="Precio del producto" class="agregar__formulario-input" id="agregar-precio" maxlength="10" required>
+                <label for="agregar-descripcion" class="agregar__formulario-label">Descripcion del producto</label>
+                <input type="text" placeholder="Descripcion del producto" class="agregar__formulario-input" id="agregar-descripcion" maxlength="200" required>
+                <input type="submit" class="agregar__formulario-send">
+            </form>
+        </div>
+    </section>
+
+    <!-- FOOTER  -->
+    <section class="footer">
+        <div class="footer__contenedor">
+            <div class="footer__nosotros">
+                <ul class="footer__lista">
+                    <li class="footer__item"><a href="">Quienes somos</a></li>
+                    <li class="footer__item"><a href="">Politica de privacidad</a></li>
+                    <li class="footer__item"><a href="">Programa de fidelidad</a></li>
+                    <li class="footer__item"><a href="">Nuestras tiendas</a></li>
+                    <li class="footer__item"><a href="">Quiero ser franquiciado</a></li>
+                    <li class="footer__item"><a href="">Anuncie aqui</a></li>
+                </ul>
+            </div>
+            <div class="footer__mensaje">
+                <h2 class="footer__nosotros-titulo">Habla con nosotros</h2>
+                <form action="" class="footer__formulario">
+                    <input type="text" class="footer__formulario-nombre" placeholder="Nombre" required>
+                    <textarea type="text" class="footer__formulario-comentario" placeholder="Mensaje" rows="3" required></textarea>
+                    <button class="footer__formulario-enviar" type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- DERECHOS  -->
+    <footer class="derechos">
+        <div class="derechos__contenedor">
+            <p class="derechos__texto">Desarrollado por Lucas Finamore</p>
+            <a href="" class="derechos__redes"><img src="" alt="" class="derechos__img"></a>
+            <a href="" class="derechos__redes"><img src="" alt="" class="derechos__img"></a>
+            <a href="" class="derechos__redes"><img src="" alt="" class="derechos__img"></a>
+        </div>
+    </footer>
+</body>
+</html>
